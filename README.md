@@ -1,2 +1,2 @@
 # Login-MeuPesqueiro
-#Dupla Rafiq Aboarrage e Pedro Ludovic
+Dupla Rafiq Aboarrage e Pedro Ludovic
