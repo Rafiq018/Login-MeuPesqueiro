@@ -1,0 +1,43 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeuPesqueiro.Views.LoginPage"
+             Title="Login">
+
+    <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center">
+
+        <Label Text="Insira seus dados"
+               FontSize="28"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <Entry x:Name="EmailEntry"
+               Placeholder="Email"
+               Keyboard="Email"
+               TextColor="White"/>
+
+        <Entry x:Name="SenhaEntry"
+               Placeholder="Senha"
+               IsPassword="True"
+               TextColor="White"/>
+
+        <Label Text="Esqueceu sua senha?"
+               TextColor="DodgerBlue"
+               FontSize="14"
+               HorizontalOptions="Start" />
+
+        <Button Text="Login"
+                BackgroundColor="#2196F3"
+                TextColor="White"
+                CornerRadius="10"
+                Clicked="OnLoginClicked"/>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="Ainda não tem uma conta?" />
+            <Button Text="Crie agora!"
+                    BackgroundColor="Transparent"
+                    TextColor="DodgerBlue"
+                    Clicked="OnCadastroClicked"/>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>
