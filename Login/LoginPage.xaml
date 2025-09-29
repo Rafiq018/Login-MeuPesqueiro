@@ -13,12 +13,12 @@
         <Entry x:Name="EmailEntry"
                Placeholder="Email"
                Keyboard="Email"
-               TextColor="White"/>
+               TextColor="Black"/>
 
         <Entry x:Name="SenhaEntry"
                Placeholder="Senha"
                IsPassword="True"
-               TextColor="White"/>
+               TextColor="Black"/>
 
         <Label Text="Esqueceu sua senha?"
                TextColor="DodgerBlue"
