@@ -5,6 +5,12 @@
 
     <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center">
 
+        <Image
+            Source="design_sem_nome.png"
+            HeightRequest="185"
+            Aspect="AspectFit"
+            SemanticProperties.Description="Logo MeuPesqueiro" /> 
+
         <Label Text="Insira seus dados"
                FontSize="28"
                FontAttributes="Bold"
